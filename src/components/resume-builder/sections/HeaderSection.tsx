@@ -2,6 +2,8 @@ import React from 'react';
 import { useResume } from '../../../context/ResumeContext';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
+
+
 interface HeaderSectionProps {
   onUnsavedChange: () => void;
 }
